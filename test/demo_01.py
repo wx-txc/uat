@@ -67,3 +67,7 @@ x_kbd = kbd.fit_transform(x)
 print(x_kbd)
 kbd.n_bins_
 kbd.bin_edges_
+
+
+from sklearn.linear_model import Ridge, Lasso, ElasticNet
+Ridge()
